@@ -20,3 +20,4 @@ Alright, let's [get started](/tutorials/learn-angular/1-components-in-angular).
 ## Using AI for Development
 
 In case you're following this tutorial in your preferred AI powered IDE, [check out Angular prompt rules and best practices](/ai/develop-with-ai).
+You’re making changes in a project you don’t have write access to. Submitting a change will write it to a new branch in your fork fawaz093c-Al-FawazWarehouse/angular, so you can send a pull request.
