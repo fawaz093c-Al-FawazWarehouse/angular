@@ -1,0 +1,11 @@
+<div>
+  <h3>إعدادات الإشعارات</h3>
+  <p>اختر المنتجات التي تريد تلقي إشعارات حولها:</p>
+  <div *ngFor="let p of exampleProducts">
+    <label>
+      <input type="checkbox" (change)="$event.target.checked ? selectedProducts.push(p) : selectedProducts = selectedProducts.filter(x=>x!==p)"/>
+      {{p}}
+    </label>
+  </div>
+  <button (click)="subscribe()" [disabled]="subscribing">اشتراك</button>
+</div>
